@@ -122,21 +122,18 @@ function Main(props) {
                           className="fas fa-times"
                           onClick={() => editTodo(obj.id)}
                         >
-                          save
                         </i>
                       ) : (
                         <i
                           className="fas fa-times"
                           onClick={() => setTodoEdit(obj.id)}
                         >
-                          edit
                         </i>
                       )}
                       <i
                         className="fas fa-times"
                         onClick={() => deleteTodo(obj.id)}
                       >
-                        time
                       </i>
                     </div>
                   </div>
