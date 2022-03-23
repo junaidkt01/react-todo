@@ -124,7 +124,7 @@ function Main(props) {
                         </i>
                       ) : (
                         <i
-                          className="fa-solid fa-check"
+                          className="fas fa-check"
                           onClick={() => setTodoEdit(obj.id)}
                         >
                         </i>
