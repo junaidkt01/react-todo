@@ -80,7 +80,6 @@ function Main(props) {
             }}
             className="fas fa-plus"
           >
-            add
           </i>
         </div>
         <div className="todos">
@@ -125,7 +124,7 @@ function Main(props) {
                         </i>
                       ) : (
                         <i
-                          className="fas fa-times"
+                          className="fa-solid fa-check"
                           onClick={() => setTodoEdit(obj.id)}
                         >
                         </i>
