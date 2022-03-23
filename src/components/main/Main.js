@@ -118,13 +118,13 @@ function Main(props) {
                     <div className="right">
                       {obj.id === todoEdit ? (
                         <i
-                          className="fas fa-times"
+                          className="fas fa-check"
                           onClick={() => editTodo(obj.id)}
                         >
                         </i>
                       ) : (
                         <i
-                          className="fas fa-check"
+                          className="fas fa-pen"
                           onClick={() => setTodoEdit(obj.id)}
                         >
                         </i>
