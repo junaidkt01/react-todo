@@ -176,7 +176,6 @@ function Main(props) {
                       className="fas fa-times"
                       onClick={() => deleteTodo(obj.id)}
                     >
-                      time
                     </i>
                   </div>
                 </div>
